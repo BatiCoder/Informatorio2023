@@ -31,8 +31,10 @@
 # Tip 4: usa bool para verificar si se encuentra, y un diccionario para asociar el booleano con un
 # string para mostrar al usuario.
 
+
 # Se le pide al usuario que ingrese un fragmento de texto cualquiera por teclado.
-texto_usuario = input("\nIngrese un texto cualquiera, por ej un articulo o frase: ")
+texto_usuario = input(
+    "\nIngrese un texto cualquiera, por ej un articulo o frase: ")
 
 # Definir una lista, para las letras ingresadas por teclado
 lista_letras = []
@@ -42,4 +44,16 @@ for i in range(3):
     letra = input(f"Ingrese la {i+1}º letra: ")
     lista_letras.append(letra)
 
-print("\nLa lista resultante es: ", lista_letras)
+# Convertir el texto y la lista de letras en minusculas.
+texto_usuario = texto_usuario.lower()
+lista_letras = [letra.lower() for letra in lista_letras]
+
+# Para contar la cantidad de veces que aparecen las letras de una lista en un texto.
+# Se definde un diccionario para contar la cantidad de veces que aparece cada letra en el texto.
+contador = {}
+
+for letra in lista_letras:
+    contador[letra] = texto_usuario.count(letra)
+
+# Imprimir el contador.
+print(f"\n{contador}")
