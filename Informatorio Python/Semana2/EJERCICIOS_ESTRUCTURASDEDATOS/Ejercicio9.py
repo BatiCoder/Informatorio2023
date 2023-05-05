@@ -18,18 +18,16 @@ print(paises)
 # Si quieres mantener la lista original sin cambios, puedes hacer una copia de la lista
 # y ordenar la copia:
 
-"""
 
 # Crear una lista con los nombres de tres países
-paises = ['España', 'México', 'Argentina']
+# paises = ['España', 'México', 'Argentina']
 
 # Crear una copia de la lista y ordenarla en orden alfabético
-paises_ordenados = sorted(paises)
+# paises_ordenados = sorted(paises)
 
-# Imprimir la lista resultante
-print(paises_ordenados)
+# # Imprimir la lista resultante
+# print(paises_ordenados)
 
-"""
 
 # Este código imprimirá la lista ['Argentina', 'España', 'México']. La lista original
 # paises permanecerá sin cambios. En ambos casos, se ha utilizado el método sort() para
