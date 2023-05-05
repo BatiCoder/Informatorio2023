@@ -30,3 +30,16 @@
 # 5- Decir si la palabra "python" aparece en el texto.
 # Tip 4: usa bool para verificar si se encuentra, y un diccionario para asociar el booleano con un
 # string para mostrar al usuario.
+
+# Se le pide al usuario que ingrese un fragmento de texto cualquiera por teclado.
+texto_usuario = input("\nIngrese un texto cualquiera, por ej un articulo o frase: ")
+
+# Definir una lista, para las letras ingresadas por teclado
+lista_letras = []
+print("\nA continuacion ingrese 3 letras a eleccion...")
+
+for i in range(3):
+    letra = input(f"Ingrese la {i+1}º letra: ")
+    lista_letras.append(letra)
+
+print("\nLa lista resultante es: ", lista_letras)
