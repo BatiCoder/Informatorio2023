@@ -33,18 +33,18 @@
 
 
 # Se le pide al usuario que ingrese un fragmento de texto cualquiera por teclado.
-texto_usuario = input(
-    "\nIngrese un texto cualquiera, por ej un articulo o frase: ")
+texto_usuario = input("\nIngrese un texto cualquiera, por ej un articulo o frase: ")
 
 # Definir una lista, para las letras ingresadas por teclado
 lista_letras = []
 print("\nA continuacion ingrese 3 letras a eleccion...")
 
+# Estructura for para cargar las letras en la lista lista_letras[].
 for i in range(3):
     letra = input(f"Ingrese la {i+1}º letra: ")
     lista_letras.append(letra)
 
-# Convertir el texto y la lista de letras en minusculas.
+# Convertir el texto y las letras dentro de la lista de letras en minusculas.
 texto_usuario = texto_usuario.lower()
 lista_letras = [letra.lower() for letra in lista_letras]
 
@@ -52,6 +52,7 @@ lista_letras = [letra.lower() for letra in lista_letras]
 # Se definde un diccionario para contar la cantidad de veces que aparece cada letra en el texto.
 contador = {}
 
+# Estructura for que recorre
 for letra in lista_letras:
     contador[letra] = texto_usuario.count(letra)
 
