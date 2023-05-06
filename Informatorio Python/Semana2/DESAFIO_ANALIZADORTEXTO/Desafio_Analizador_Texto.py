@@ -84,7 +84,7 @@ print("\nAsi queda el texto invertido: ")
 print(f"{texto_inverso}")
 
 # Identificar si la palabra Python existe en el texto, e imprimir por pantalla si lo esta o no.
-if "PYTHON" or "python" in texto_usuario:
+if "PYTHON" in texto_usuario or "python" in texto_usuario:
     print("\nLa palabra Python existe en el texto.")
 else:
     print("\nLa palabra Python no existe en el texto.")
