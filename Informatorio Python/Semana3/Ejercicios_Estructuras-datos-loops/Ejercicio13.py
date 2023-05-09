@@ -5,3 +5,9 @@
 # ***
 # ****
 # *****
+
+num=int(input("Ingrese un numero entero: "))
+puntito="*"
+
+for i in range(1,num+1):
+    print(f"{puntito*i}")
