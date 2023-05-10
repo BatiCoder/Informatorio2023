@@ -10,5 +10,5 @@ num=int(input("Ingrese un numero entero: "))
 numerito=0
 
 for n in range(1, num+1):
-    
+    s
 
