@@ -2,11 +2,11 @@
 # 8-Escribir un programa que pida al usuario una cadena de caracteres y muestre
 # por pantalla si contiene la letra "a"
 
-""" cadena = input("Ingresa una cadena de caracteres: ")
+cadena = input("Ingresa una cadena de caracteres: ")
 if "a" in cadena:
     print("La cadena contiene la letra 'a'")
 else:
-    print("La cadena no contiene la letra 'a'") """
+    print("La cadena no contiene la letra 'a'")
 
 # Primero, se solicita al usuario que ingrese una cadena de caracteres mediante la función input().
 # Luego, se utiliza un condicional if para verificar si la letra "a" está presente en la cadena mediante el operador in.

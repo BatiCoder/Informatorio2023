@@ -4,4 +4,6 @@
 cadena_texto=input("Ingrese un fragmento de texto: ")
 cant_letras={}
 
+for letra in cadena_texto
+
 
