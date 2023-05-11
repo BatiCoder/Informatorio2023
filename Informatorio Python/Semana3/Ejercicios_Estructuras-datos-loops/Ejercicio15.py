@@ -2,17 +2,17 @@
 # cuántas veces aparece cada letra en la cadena.
 
 cadena_texto=input("Ingrese un fragmento de texto: ")
-cant_letras={}
+frecuencias={}
 
 for letra in cadena_texto:
-    if letra in cant_letras:
-        cant_letras[letra]+=1
+    if letra in frecuencias:
+        frecuencias[letra]+=1
     else:
-        cant_letras[letra]=1
+        frecuencias[letra]=1
 
 print("Frecuencias de letras en el texto:")
-for letra, cant_letra in cant_letras.items():
-    print(letra, "->", cant_letra)
+for letra, frecuencia in frecuencias.items():
+    print(letra, "->", frecuencias)
 
 # El diccionario frecuencias se va llenando a medida que el bucle for va recorriendo cada 
 # letra de la cadena de texto ingresada por el usuario.En cada iteración del bucle for, la 
