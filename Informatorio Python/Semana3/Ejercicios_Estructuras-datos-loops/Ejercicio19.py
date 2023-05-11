@@ -5,7 +5,9 @@
 # puede dividir por 1, 2 y 3, y cuando sumas esos números, el resultado es 6
 
 numero = int(input("Introduce un número: "))
+
 suma_divisores = 0  # inicializar la suma de divisores en 0
+
 for i in range(1, numero):  # iterar sobre cada posible divisor propio
     if numero % i == 0:  # si el número es divisible por el divisor actual
         suma_divisores += i  # añadir el divisor a la suma de divisores
