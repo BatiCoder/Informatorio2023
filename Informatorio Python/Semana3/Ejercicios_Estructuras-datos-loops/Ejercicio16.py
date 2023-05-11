@@ -2,8 +2,8 @@
 # la misma cadena pero con cada palabra al revés.
 
 texto = input("Introduce una cadena de texto: ")
-palabras = texto.split()  # dividir la cadena en palabras
-palabras_invertidas = []  # lista para almacenar las palabras invertidas
+palabras = texto.split()  # dividir la cadena en palabras y convertirse en lista.
+palabras_invertidas = []  # lista para almacenar las palabras invertidas.
 
 # iterar sobre cada palabra en la lista y agregar su versión invertida a la lista palabras_invertidas
 for palabra in palabras:
