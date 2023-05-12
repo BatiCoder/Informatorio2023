@@ -32,38 +32,61 @@
 # número que tenía que adivinar.
 
 from random import randint
+# Importar la función randint de la biblioteca random.
 
-nombre_usuario=input("\nIngrese su nombre: ")
-numero_aleatorio=randint(1,100)
+nombre_usuario = input("\nIngrese su nombre: ")
+# Solicitar al usuario que ingrese su nombre y guardarlo en la variable nombre_usuario.
 
-print(f"\n{numero_aleatorio}")
+numero_aleatorio = randint(1, 100)
+# Generar un número aleatorio entre 1 y 100 y guardarlo en la variable numero_aleatorio.
 
-print(f"\nJugemos un juego {nombre_usuario}, intenta adivinar el numero entero que puede ir del 1 al 100")
+print(f"\nJuguemos un juego {nombre_usuario}, intenta adivinar el número entero que puede ir del 1 al 100")
+# Imprimir un mensaje de bienvenida y las instrucciones del juego.
 
-numero_intentos=8
+numero_intentos = 8
+# Establecer el número de intentos disponibles para el usuario.
 
 while numero_intentos > 0:
+    # Iniciar un ciclo while que se repetirá hasta que se agoten los intentos.
+
     print(f"\nIntentos disponibles: {numero_intentos}")
-    num_ingresado=input("\nEliga el numero: ")
+    # Mostrar al usuario cuántos intentos le quedan.
+
+    num_ingresado = input("\nElige un número: ")
+    # Solicitar al usuario que ingrese un número.
 
     if not num_ingresado.isdigit():
-        print("\nERROR 404 NOT FOUND, ROMPITE TODO GILLL: No ingresaste un numero entero...")
+        # Verificar si la entrada no es un número entero.
+        print("\nERROR 404 NOT FOUND: No ingresaste un número entero...")
         continue
+        # Si no es un número entero, mostrar un mensaje de error y volver al principio del ciclo while.
 
     num_usuario = int(num_ingresado)
+    # Convertir la entrada del usuario a un número entero y guardarlo en la variable num_usuario.
 
     if num_usuario > numero_aleatorio:
-        print("\nEl numero a adivinar es menor")
+        # Verificar si el número ingresado por el usuario es mayor que el número aleatorio.
+        print("\nEl número a adivinar es menor")
+        # Mostrar un mensaje indicando que el número a adivinar es menor.
+
     elif num_usuario < numero_aleatorio:
-        print("\nEl numero a adivinar es mayor")
+        # Verificar si el número ingresado por el usuario es menor que el número aleatorio.
+        print("\nEl número a adivinar es mayor")
+        # Mostrar un mensaje indicando que el número a adivinar es mayor.
+
     else:
-        print(f"\nBIEN AHi {nombre_usuario}, ADIVINASTEEEEE, en el {9-numero_intentos} intento.")
+        # Si ninguno de los casos anteriores se cumple, significa que el usuario ha adivinado el número.
+        print(f"\n¡BIEN AHIIII {nombre_usuario}! Adivinaste en el intento número {9 - numero_intentos}.")
         break
-    
-    numero_intentos-=1
+        # Mostrar un mensaje de felicitaciones y salir del ciclo while.
+
+    numero_intentos -= 1
+    # Descontar un intento después de cada intento del usuario
 
     if numero_intentos == 0:
-        print(f"\nSe agotaron el numero de intentos el numero a adivinar era: {numero_aleatorio}")
+        # Verificar si se agotaron los intentos disponibles
+        print(f"\nSe agotaron los intentos. El número a adivinar era: {numero_aleatorio}")
+        # Mostrar un mensaje indicando que se agotaron los intentos y cuál era el número a adivinar
 
 
 
