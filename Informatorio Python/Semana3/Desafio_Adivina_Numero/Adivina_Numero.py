@@ -36,28 +36,28 @@ from random import randint
 nombre_usuario=input("\nIngrese su nombre: ")
 numero_aleatorio=randint(1,100)
 
-print(f"\n{numero_aleatorio}\n")
+print(f"\n{numero_aleatorio}")
 
 print(f"\nJugemos un juego {nombre_usuario}, intenta adivinar el numero entero que puede ir del 1 al 100")
 
 numero_intentos=8
 
 while numero_intentos > 0:
-    print(f"\nIntentos disponibles {numero_intentos}")
+    print(f"\nIntentos disponibles: {numero_intentos}")
     num_ingresado=input("\nEliga el numero: ")
 
     if not num_ingresado.isdigit():
         print("\nERROR 404 NOT FOUND, ROMPITE TODO GILLL: No ingresaste un numero entero...")
         continue
 
-    num_usuario=num_ingresado(int)
+    num_usuario = int(num_ingresado)
 
-    if num_ingresado > numero_aleatorio:
+    if num_usuario > numero_aleatorio:
         print("\nEl numero a adivinar es menor")
-    elif num_ingresado < numero_aleatorio:
+    elif num_usuario < numero_aleatorio:
         print("\nEl numero a adivinar es mayor")
     else:
-        print(f"\nBIEN AHi, ADIVINASTEEEEE, en el {9-numero_intentos} intento.")
+        print(f"\nBIEN AHi {nombre_usuario}, ADIVINASTEEEEE, en el {9-numero_intentos} intento.")
         break
     
     numero_intentos-=1
