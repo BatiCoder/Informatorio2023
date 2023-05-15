@@ -5,4 +5,5 @@
 
 def es_capicua(numero):
     str(numero)
-    numero_inverso=numero.reverse()
+    numero_inverso=numero[::-1]
+    
