@@ -23,6 +23,4 @@ def contar_vocales(cadena_texto):
     return cant_vocales
     # Devuelve la cantidad total de vocales encontradas en la cadena de texto.
 
-
-
 print(contar_vocales("Bienvenidos a Ushuaia"))
