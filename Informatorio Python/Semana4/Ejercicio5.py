@@ -11,4 +11,3 @@ def es_divisible(num1, num2):
     else:
         return "No es divisible"  # Si el residuo no es cero, devuelve el mensaje "No es divisible"
 
-

@@ -81,16 +81,9 @@ while numero_intentos > 0:
         # Mostrar un mensaje de felicitaciones y salir del ciclo while.
 
     numero_intentos -= 1
-    # Descontar un intento después de cada intento del usuario
+    # Descontar un intento después de cada intento del usuario.
 
     if numero_intentos == 0:
-        # Verificar si se agotaron los intentos disponibles
+        # Verificar si se agotaron los intentos disponibles.
         print(f"\nSe agotaron los intentos. El número a adivinar era: {numero_aleatorio}")
-        # Mostrar un mensaje indicando que se agotaron los intentos y cuál era el número a adivinar
-
-
-
-
-
-
-
+        # Mostrar un mensaje indicando que se agotaron los intentos y cuál era el número a adivinar.
