@@ -31,6 +31,3 @@ print(lista_sin_duplicados)  # Imprime la nueva lista sin duplicados: [1, 2, 3, 
 # Se utiliza la función eliminar_duplicados con la lista original [1, 2, 3, 3, 4, 2, 5, 1]. El resultado 
 # se almacena en la variable lista_sin_duplicados. Luego, se imprime el contenido de lista_sin_duplicados, 
 # que es la nueva lista sin duplicados: [1, 2, 3, 4, 5].
-
-
-
