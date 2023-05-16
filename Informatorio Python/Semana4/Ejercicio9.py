@@ -3,10 +3,11 @@
 # parámetro y devuelva el promedio de esos números.
 
 def promedio(lista_numeros):
-    # Función que calcula el promedio de una lista de números.
+# Función que calcula el promedio de una lista de números.
     
     suma = 0
-    
+    # Variable que acumula la suma de la lista de números, es un acumulador.
+
     for numero in lista_numeros:
         # Itera sobre cada número en la lista.
         

@@ -3,7 +3,7 @@
 # parámetro y devuelva la cadena invertida.
 
 def invertir_cadena(cadena_texto):
-    # Esta función toma una cadena de texto y la imprime invertida palabra por palabra.
+# Esta función toma una cadena de texto y la imprime invertida palabra por palabra.
 
     # Parámetros:
     # - cadena_texto: La cadena de texto a invertir.

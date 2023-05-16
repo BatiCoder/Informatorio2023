@@ -4,6 +4,7 @@
 # alto y el numero mas bajo en la lista.
 
 def calcular_mayor_diferencia(lista_numeros):
+    
     # Calcula el número mayor y menor en la lista de números.
     mayor = max(lista_numeros)
     menor = min(lista_numeros)

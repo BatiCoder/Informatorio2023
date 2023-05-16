@@ -5,6 +5,7 @@
 # divisible por 400.
 
 def es_bisiesto(anio):
+    
     # Verifica si el año es divisible por 4 y no divisible por 100,
     # o si es divisible por 400 y también divisible por 100.
     if (anio % 4 == 0 and anio % 100 != 0) or (anio % 400 == 0 and anio % 100 == 0):

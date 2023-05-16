@@ -4,7 +4,7 @@
 # devuelva Es impar o No es par.
 
 def es_par(num):
-    # Función que verifica si un número es par o impar.
+# Función que verifica si un número es par o impar.
     
     if num % 2 == 0:
         return "Es par"

@@ -4,6 +4,7 @@
 # letras pero en distinto orden), o False en caso contrario.
 
 def es_anagrama(cadena1, cadena2):
+    
     # Verifica si las cadenas tienen la misma longitud
     if len(cadena1) != len(cadena2):
         return False

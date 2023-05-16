@@ -3,7 +3,7 @@
 # parámetro y devuelva el número de vocales que contiene.
 
 def contar_vocales(cadena_texto):
-    # Función que cuenta la cantidad de vocales en una cadena de texto.
+# Función que cuenta la cantidad de vocales en una cadena de texto.
     
     vocales = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
     # Lista de vocales en minúsculas y mayúsculas.

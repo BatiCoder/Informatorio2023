@@ -4,6 +4,7 @@
 # original.
 
 def eliminar_duplicados(lista):
+    
     # Crea una lista vacía para almacenar los elementos sin duplicados.
     lista_sin_duplicados = []
 

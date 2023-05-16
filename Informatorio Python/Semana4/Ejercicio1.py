@@ -3,7 +3,7 @@
 # devuelva la suma de ellos.
 
 def suma(num1, num2):
-    # Esta función recibe dos números como parámetros y devuelve la suma de ellos.
+# Esta función recibe dos números como parámetros y devuelve la suma de ellos.
 
     # Parámetros:
     # - num1: El primer número a sumar.

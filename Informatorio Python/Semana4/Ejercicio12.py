@@ -4,7 +4,7 @@
 # es: Fahrenheit = (Celsius * 9/5) + 32.
 
 def convertir_temperatura(temperatura_celsius):
-    # Convierte una temperatura en grados Celsius a grados Fahrenheit.
+# Función que convierte una temperatura en grados Celsius a grados Fahrenheit.
 
     # Fórmula de conversión: Fahrenheit = (Celsius * 9/5) + 32
     grados_fahrenheit = (temperatura_celsius * 9/5) + 32

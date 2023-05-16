@@ -5,7 +5,7 @@
 # positivos desde 1 hasta n.
 
 def calcular_factorial(numero):
-    # Función que calcula el factorial de un número entero.
+# Función que calcula el factorial de un número entero.
     
     factorial = 1
     # Inicializa el valor del factorial en 1.

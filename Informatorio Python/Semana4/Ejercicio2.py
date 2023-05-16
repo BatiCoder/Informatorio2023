@@ -3,7 +3,7 @@
 # parámetro e imprima un saludo personalizado.
 
 def saludo(nombre):
-    # Esta función imprime un mensaje de bienvenida al INFO 2023 junto con el nombre proporcionado.
+# Esta función imprime un mensaje de bienvenida al INFO 2023 junto con el nombre proporcionado.
 
     # Parámetros:
     # - nombre: El nombre de la persona a la cual se le da la bienvenida.
