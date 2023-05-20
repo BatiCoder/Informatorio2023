@@ -5,16 +5,19 @@ Puedes permitir al usuario ingresar los valores a convertir. """
 
 
 def kilometros_a_millas(kilometros):
-    #...
-    pass
+    millas = kilometros * 1.60934
+    return millas
+
 
 def celsius_a_fahrenheit(celsius):
-    #...
-    pass
+    fahrenheit = (celsius * 9/5) + 32
+    return fahrenheit
+
 
 def libras_a_kilogramos(libras):
-    #...
-    pass
+    kilogramos = libras / 0,453592
+    return kilogramos
+
 
 print("¡Bienvenido al conversor de unidades!")
 
