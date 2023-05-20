@@ -1,3 +1,4 @@
+
 """ Crear una funcion que reciba un numero 'x' e imprima los primeros 'x' números de la sucesión de Fibonacci."""
 
 def fibonacci(x):

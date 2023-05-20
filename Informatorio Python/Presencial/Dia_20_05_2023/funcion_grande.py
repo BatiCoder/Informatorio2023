@@ -1,3 +1,4 @@
+
 """ Descripción: Imagina que estás creando un programa para procesar datos de estudiantes, 
 y necesitas una función que realice diferentes operaciones utilizando otras cinco funciones.
  """
