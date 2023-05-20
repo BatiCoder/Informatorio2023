@@ -3,27 +3,31 @@
 como suma, resta, multiplicación y división. 
 
 IMPORTANTE!!!
-solo deberas crear las operaciones aricmeticas basicas.
+solo deberas crear las operaciones aritméticas basicas.
 """
 
 def suma(a, b):
-    #...
-    pass
+    suma=a+b
+    return suma
+
 
 def resta(a, b):
-    #...
-    pass
+    resta=a-b
+    return resta
+
 
 def multiplicacion(a, b):
-    #...
-    pass
+    multiplicacion=a*b
+    return multiplicacion
+
 
 def division(a, b):
-    #...
-    pass
+    if b!=0:
+        division=a/b
+    return division
 
 
-#ejecucion del programa
+# Ejecución del programa
 print("¡Bienvenido a la calculadora!")
 
 while True:
