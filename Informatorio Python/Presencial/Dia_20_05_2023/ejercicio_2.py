@@ -8,21 +8,45 @@ def agregar_contacto(agenda, nombre, telefono):
         y el numero de telefono. Verifica si el contacto existe
         si no existe lo agrega al diccionario
     """
-    #...
+    
+    if nombre not in agenda:
+        agenda[nombre] = telefono
+        print("Contacto agregado exitosamente.")
+    else:
+        print("El contacto ya existe en la agenda.")
+
+    return agenda
+
 
 def eliminar_contacto(agenda, nombre):
     """ recibe un diccionario y un nombre.
         busca si el nombre existe en el diccionario
         y si lo encuentra lo elimina
     """
-    #...
+    
+    if nombre in agenda:
+        del agenda[nombre]
+        print("El contacto existe, sera eliminado.")
+    else:
+        print("El contacto no existe en la agenda.")
+        
+    return agenda    
 
 def buscar_contacto(agenda, nombre):
     """ recibe un diccionario y un nombre
         si encuentra el nombre en la agenda 
         muestra la informacion del contacto
     """
-    #...
+    
+    if nombre in agenda:
+        telefono = agenda[nombre]
+        print("Información del contacto:")
+        print(f"Nombre: {nombre}")
+        print(f"Teléfono: {telefono}")
+    else:
+        print("El contacto no existe en la agenda.")
+           
+
 
 agenda = {}
 
